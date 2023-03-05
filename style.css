@@ -1,0 +1,631 @@
+body{
+	font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+
+.image{
+	background-image: url(image/pexels-vecislavas-popa-1571460.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.navbar1{
+	position: sticky;
+	top: 0;
+}
+
+.navbar1{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.first-link ul, .second-link ul{
+	display: inline-flex;
+	padding-top: 10px;	
+}
+.first-link li, .second-link li{
+	padding-left: 30px;
+	list-style: none;	
+}
+.second-link ul{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 50px;
+}
+.first-link a, .second-link a{
+	color: white;
+}
+.first-link a:hover, .second-link a:hover{
+	text-decoration: none;
+	background-color: #ddddee;
+	padding: 10px;
+	border-radius: 10px;
+	transition: all 0.10s;
+	color: #bf8040;
+}
+.third-link ul{
+	display:flex;
+	padding-top: 10px;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+.third-link li{
+	list-style: none;
+	padding-left: 30px;
+}
+.third-link a{
+	color: white;
+}
+.third-link a:hover{
+	text-decoration: none;
+	background-color: #ddddee;
+	padding: 10px;
+	border-radius: 10px;
+	transition: all 0.4s;
+	color: #bf8040;
+}
+.logo{
+	padding-left: 30px;
+	color:#b3ffff;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+.logo span{
+	color: 	#ff99cc;
+}
+.head-text h1{
+	text-align: center;
+	padding-top: 170px;
+	color: white;
+	font-size: 50px;
+}
+.search ul{
+	display:flex;
+	justify-content: center;
+	list-style: none;
+}
+.search li{
+	padding-right: 20px;
+	padding-top: 30px;
+
+}
+.search a{
+	color: white;
+}
+
+#hint a.active{
+	text-decoration: underline;
+}
+.search a:hover{
+	text-decoration: none;
+	background-color: #ddddee;
+	padding: 5px;
+	border-radius: 5px;
+	transition: all 0.4s;
+	color: #bf8040;
+}
+.address form{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+.address input{
+	padding: 8px 80px 8px 20px;
+	border-radius: 10px;
+	border: 3px solid white;
+	box-bottom: orange;
+}
+.address button{
+	border-radius: 10px;
+	margin-left: 5px;
+	border: 3px solid white;
+}
+.address button:hover{
+	background-color: #ddddee;
+	color: #bf8040;
+}
+.list-head h6{
+	margin-top: 70px;
+}
+.photo img{
+	height: 60vh;
+	width: 100%;
+}
+.divider{
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #4d3333;
+	color: white;
+	
+}
+.assurance{
+	text-align: center;
+	padding-top: 200px;
+}
+.footer{
+	text-align: center;
+	font-family: sans-serif;
+	color: grey;
+	padding-top: 30px;
+}
+
+
+/*buy page*/
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar-buy{
+	background-color:#006E7F;
+	
+}
+.head-photo{
+	background-image: url(image/headphoto.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.head-photo h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.head-photo {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+.task-links{
+	background-color: #4B5D67;
+}
+.border-side{
+	border-right: 3px solid white;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.no-border{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.task-links a:hover{
+	text-decoration: none;
+	color: #66BFBF;
+	transition: all 0.4s ease;
+}
+.task-links a{
+	color: white;
+}
+.new-color{
+	background-color:#006E7F;
+}
+.passage h2{
+	margin-top: 80px;
+}
+
+.display img{
+	width: 100%;
+}
+.feature{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.arrow span{
+	
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #006E7F;
+	border-radius: 30px;
+	color: white;
+
+}
+.arrow{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	scroll-behavior: smooth;
+	margin-bottom: 100px;
+}
+
+a:active {
+	color: #006799;
+}
+
+/*before page*/
+.second-head{
+	background-image: url(image/andrew-wise-LE7RC3l5EeY-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.second-head h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.second-head {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+/*searching for the perfect Home*/
+.third-head{
+	background-image: url(image/brooke-cagle-WHWYBmtn3_0-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.third-head h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.third-head {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+/*making the purchase*/ 
+
+.forth-head{
+	background-image: url(image/jimmy-dean-Qngdf0kgGB4-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.forth-head h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.forth-head {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: black;
+	font-size: 20px;
+}
+
+/*The sell page*/
+
+.sell-one{
+	background-image: url(image/kelly-sikkema-6vudIBHwLe8-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.sell-one h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.sell-one {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+/*when should you sell*/
+
+.sell-two{
+	background-image: url(image/christiann-koepke-r6rokVkrwZk-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.sell-two h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.sell-two {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+/*Preparing to*/
+
+.sell-three{
+	background-image: url(image/clay-banks-E2HgkL3LaFE-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.sell-three h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.sell-three {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+/*The offer page*/
+
+.sell-four{
+	background-image: url(image/headway-5QgIuuBxKwM-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.sell-four h1{
+	padding-left: 100px;
+	padding-top: 90px;
+}
+.sell-four {
+	padding-left: 50px;
+	padding-top: 80px;
+	color: white;
+	font-size: 20px;
+}
+ 
+ /*luxury page*/
+
+.Properties{
+	margin-top: 80PX;
+}
+.Properties h6{
+	color: grey;
+}
+.luxury{
+	margin-top: 50px;
+}
+.summary{
+	background-color:#006E7F;
+	padding-top: 30px;
+	color: white;
+	font-size: 12px;
+	font-family: sans-serif;
+	
+}
+.summary p{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.full-page{
+	background: linear-gradient(#ffffff,#74959A);
+
+}
+.edit{
+	color: white;
+	font-size: 15px;
+}
+
+/*registration*/
+.reg-page{
+	background: linear-gradient(#74959A,white);
+	box-shadow: 5px 10px #888888;
+}
+.registration{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	font-family: sans-serif;
+	font-size: 12px;	
+}
+.back-page{
+	background-color: #7D9D9C;
+	width: 600px;
+	box-shadow: red;
+}
+.all-forms{
+	display:flex; 
+	justify-content: center;
+	line-height: 30px;
+}
+.all-forms input{
+	padding-right: 30px;
+}
+.form1{
+	padding-right: 30px;
+}
+.butt{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.butt button{
+	border-radius: 5px;
+	background-color: #E4DCCF;
+	border-color: #E4DCCF;
+}
+
+/*
+Login page*/
+
+.log-page h3{
+	margin-top: 10px;
+	text-align: center;
+	padding-right: 30px;
+	opacity: 0.6;
+}
+.log-page{
+	background-color:#7D9D9C ;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	padding-left: 50px;
+	line-height: 30px;
+}
+.log-page input{
+	padding-right: 40px;
+
+}
+.log-page a{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+}
+.log-page a:hover{
+	text-decoration: none;
+	color: white;
+}
+.log-page button{
+	border-radius: 5px;
+	background-color: #E4DCCF;
+	border-color: #E4DCCF;
+}
+.full-login{
+	background: linear-gradient(white,#74959A);
+}
+
+/*about us page*/
+
+.abt-page{
+	margin-top: 100px;
+
+}
+.leader{
+	margin: 60px;
+	text-align: center;
+}
+.lead{
+	padding-top: 100px;
+}
+.leader img{
+	border-radius: 50%;
+	width: 300px;
+}
+.message h2{
+	text-align: center;
+	padding-top: 60px;
+}
+.full-abt{
+	background: linear-gradient(white,#74959A);
+}
+
+/*contact us*/
+ .contact{
+ 	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+ 	margin-top: 100px;
+ }
+.map img{
+	width: 100%;
+	height: 60vh;
+}
+.map{
+	margin-top: 60px;
+}
+.icon span{
+	font-size: 30px;
+	padding-right: 20px;
+}
+.icon #insta{
+	color: #ff4d94;
+}
+.social{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+.icon #face{
+	color: #0040ff;
+}
+.icon #linked{
+	color: #0000b3;
+}
+
+
+/*first house*/
+.dis-page{
+	font-family: sans-serif;
+}
+.house{
+	margin: 0px;
+	padding: 0px;
+
+}
+.house img{
+	width: 100%;
+	height: 100vh;
+
+}
+.firs-p img{
+	width: 100%;
+	margin-top: 20px;
+  transition: width 1s, height 1s;
+}
+
+.discription{
+	margin-top: 60px;
+}
+.discription h5{
+	padding-top: 30px;
+}
+.discription p{
+	opacity: 0.7;
+}
+#main-info{
+	margin-bottom: 100px;
+}
+
+/*second house page*/
+
+.show video{
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+
+
+@media screen and (max-width: 500px){
+	body{
+		
+	}
+	.first-link ul, .second-link ul{
+	display: inline-flex;
+	padding-top: 15px;	
+	}
+	.first-link li, .second-link li{
+	padding-left: 10px;
+	list-style: none;	
+	}
+	.second-link ul{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 5px;
+	position: relative;
+	bottom: 53px;
+	}
+	.logo H2{
+	font-size: 20PX;
+	padding-top: 20PX;
+	}
+
+	.third-link li{
+	padding-left: 10px;
+	}
+	.third-link ul {
+		position: relative;
+		bottom: 35px;
+	}
+	.head-text h1{
+		font-size: 30px;
+	}
+	.search{
+		font-size: 15px;
+	}
+	.address input{
+	padding: 4px 30px 4px 10px;
+	border-radius: 10px;
+	border: 1px solid white;
+	box-bottom: orange;
+	}
+	.assurance{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+}
